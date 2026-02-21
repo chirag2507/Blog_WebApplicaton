@@ -106,7 +106,7 @@ function checkExistingSession() {
     console.log('User already logged in:', currentUser.name);
     // Redirect to home if already logged in
     if (window.location.pathname.includes('login') || window.location.pathname.includes('signin')) {
-      window.location.href = 'home.html';
+      window.location.href = 'blog.html';
     }
   }
 }
@@ -284,3 +284,4 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 });
+
