@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UrbanDiary — Login</title>
+  <link rel="stylesheet" href="style/auth.css" />
+</head>
+<body class="auth-body">
+  <div class="auth-wrap">
+    <a href="UrbanDiary.html" class="back-btn" aria-label="Go back">← Back</a>
+    <div class="auth-card" id="authCard">
+      <h1 class="auth-title">Welcome back</h1>
+
+      <form class="auth-form" id="loginForm" autocomplete="on">
+        <div class="form-row">
+          <input id="emailL" name="email" type="email" placeholder=" " required />
+          <label for="emailL">Email address</label>
+        </div>
+
+        <div class="form-row">
+          <input id="passwordL" name="password" type="password" placeholder=" " required />
+          <label for="passwordL">Password</label>
+        </div>
+
+        <div class="auth-cta">
+          <button class="btn-auth" type="submit">Sign in</button>
+          <button type="button" class="btn-ghost" id="forgotBtn">Forgot?</button>
+        </div>
+        <div class="small-note">Keep me signed in on this device.</div>
+      </form>
+
+      <p class="auth-switch">New here? <a class="switch-link" href="signin.html">Create account</a></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="js/auth.js" defer></script>
+</body>
+</html>
