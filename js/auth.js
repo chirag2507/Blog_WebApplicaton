@@ -187,8 +187,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         
         // Redirect after animation
         setTimeout(() => {
-          console.log('Redirecting to home.html...');
-          window.location.href = 'home.html';
+          console.log('Redirecting to blog.html...');
+          window.location.href = 'blog.html';
         }, 800);
       } else {
         console.log('❌ Login failed:', result.message);
@@ -284,4 +284,5 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 });
+
 
